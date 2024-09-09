@@ -1,20 +1,23 @@
-h1{
-    color: blue;
+h1{ /*styling för h1*/
+    color: rgb(75, 75, 197);
     
 }
 body{
     background-color: rgb(228, 228, 228);
 }
-.button{
-    background-color: rgb(3, 112, 3);
+.button{ /*styling för knappen*/
+    background-color: rgb(51, 126, 51);
     color: white;
-    padding: 15px 32px;
+    padding: 10px 32px;
 }
-.content{
+.content{ /* Styling för content-klassen */
     display: flex;
     flex-direction: column; 
     align-items: center; 
     justify-content: center; 
     height: 100vh; 
     text-align: center;
+}
+.content h1{ /*för att skapa lite mer utrymme mellan h1 och knappen*/
+    margin-bottom: 10px;
 }
